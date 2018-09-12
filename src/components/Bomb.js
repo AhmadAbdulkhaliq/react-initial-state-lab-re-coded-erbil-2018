@@ -9,9 +9,9 @@ export default class Bomb extends react.Component{
     }
   }
   render(){
-    let check={}
+    let check=this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go boom!`;
     retur(
-      <p></p>
+      <p>{check}</p>
       )
   }
 }
