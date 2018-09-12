@@ -9,6 +9,7 @@ export default class Bomb extends react.Component{
     }
   }
   render(){
+    let check={}
     retur(
       <p></p>
       )
