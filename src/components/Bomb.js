@@ -5,7 +5,7 @@ export default class Bomb extends react.Component{
   constructor(props){
     super()
     this.state={
-      
+      secondsLeft:
     }
   }
 }
