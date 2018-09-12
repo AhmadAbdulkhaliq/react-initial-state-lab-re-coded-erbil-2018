@@ -10,7 +10,7 @@ export default class ImageSlider extends react.Component{
   }
   render(){
     return(
-      
+      'I am on slide {}'
       )
   }
 }
