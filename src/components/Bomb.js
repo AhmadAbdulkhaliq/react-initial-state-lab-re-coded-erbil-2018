@@ -5,7 +5,12 @@ export default class Bomb extends react.Component{
   constructor(props){
     super()
     this.state={
-      secondsLeft:
+      secondsLeft:props.initialCount
     }
+  }
+  render(){
+    retur(
+      <p></p>
+      )
   }
 }
